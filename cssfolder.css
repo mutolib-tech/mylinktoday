@@ -1,0 +1,461 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+}
+/* .header{
+    border: 1px solid black;
+    width: 100%; */
+
+ /* .headertop{
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+}  */
+.headerbottom{
+    border: 1px solid gray;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    padding: 10px;
+}
+i{
+    margin-right: 10px;
+}
+.body{
+    border: 1px solid black ;
+    width: 100%;
+}
+.bodytop{
+    width: 100%;
+    
+    background-image: url(bicycle.JPG);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+    /* border: 1px solid black; */
+}
+.bodybottom{
+    
+    width:100%;
+    padding: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+.line{
+    /* border: 1px solid black; */
+    width: 80px;
+    margin-left: 620px;
+    
+}
+.mainbody{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+.bodyleft{
+    /* border: 1px solid black; */
+    width: 60%;
+    /* background-image: url("tree.JPG"); */
+    padding: 10px;
+    background-color: white;
+}
+.left{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 500px;
+    background-image: url("tree.JPG");
+    margin: 0 auto 0;
+}
+.text1{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    height: 300px;
+    padding: 10px;
+    text-align: center;
+}
+.lew{
+    text-align: center;
+    margin-top: 10px;
+    color: coral;
+    font-family:serif; 
+}
+.nm{
+    margin-top: 15px;
+    font-weight:bolder;
+    font-family: monospace;
+}
+.beauty{
+    /* border: 1px solid coral; */
+    width: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    /* background-color: coral; */
+}
+
+.bodyright{
+    /* border: 1px solid black; */
+    width:35%;
+    margin: 0 auto 0;
+    height: 2100px;
+    padding: 10px;
+    background-color: lavender;
+    flex-direction: column;
+}
+.kid1{
+    border: 1px solid black;
+    height: 50px;
+    text-align:center;
+    padding: 10px;
+    border-left: 0ch;
+    border-right: 0ch;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.kid2{
+    /* border: 1px solid black; */
+    height: 300px;
+    margin-top: 30px;
+    background-image: url("flower.JPG");
+    background-repeat: no-repeat;
+    margin-left:60px;
+}
+.pi{
+    margin-top: 30px;
+}
+.kid3{
+    border: 1px solid black;
+    text-align: center;
+    border-left: 0ch;
+    border-right: 0ch;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.small{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+.kid4{
+    /* border: 1px solid black; */
+    height: 400px;
+    padding: 5px;
+    /* display: flex; */
+}
+/* .mo{
+    border:1px solid black;
+    width: 30px; */
+/* } */
+.mo1{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 10px;
+padding: 10px;
+/* margin: 0 auto 0; */
+}
+.mo2{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* margin: 0 auto 0; */
+}
+.mo3{
+    /* border: 1px solid black; */
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    /* margin: 0 auto 0; */
+}
+.moa{
+    /* border: 1px solid black; */
+    background-image: url("moa.JPG");
+    width: 100px;
+    height: 70px;
+    margin: 0 auto 0;
+}
+.mob{
+    /* border: 1px solid black; */
+    background-image: url("mob.JPG");
+    width: 100px;
+    height: 70px;
+    margin: 0 auto 0;
+}
+.moc{
+    /* border: 1px solid black; */
+    background-image: url("moc.JPG");
+    width: 100px;
+    height: 70px;
+    margin: 0 auto 0;
+}
+.mod{
+    /* border: 1px solid black; */
+    background-image: url("mod.JPG");
+    width: 100px;
+    height: 70px;
+    margin: 0 auto 0;
+}
+.moe{
+    /* border: 1px solid black; */
+    background-image: url("moe.JPG");
+    width: 100px;
+    height: 70px;
+    margin: 0 auto 0;
+}
+.mof{
+    /* border: 1px solid black; */
+    background-image: url("mof.JPG");
+    width: 100px;
+    height: 70px;
+    margin: 0 auto 0;
+}
+.mog{
+    /* border: 1px solid black; */
+    background-image: url("mog.JPG");
+    width: 100px;
+    height: 70px;  
+    margin: 0 auto 0; 
+}
+.moh{
+    /* border: 1px solid black; */
+    background-image: url("moh.JPG");
+    width: 100px;
+    height: 70px;
+    margin: 0 auto 0;
+}
+
+.moi{
+    /* border: 1px solid black */
+    background-image: url("moi.JPG");
+    width: 100px;
+    height: 70px;
+    margin: 0 auto 0;
+    
+}
+.followme{
+    border: 1px solid black;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-family: serif;
+    border-left: 0ch;
+    border-right: 0ch;
+    margin-top: 20px;
+}
+.face{
+    border: 1px solid black;
+    height: 100px;
+    margin-top: 10px;
+}
+.popular{
+    border: 1px solid black;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+    font-family: serif;
+    border-left: 0ch;
+    border-right: 0ch;
+    margin-top: 20px;
+
+}
+.linkbody{
+    /* border: 1px solid black ; */
+    width: 100%;
+    /* height: 30px; */
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+}
+.linkleft{
+    /* border: 1px solid black; */
+    width: 40%;
+    margin: 0 auto 0;
+    padding: 10px;
+    
+}
+.linkright{
+    /* border: 1px solid black ; */
+    width: 55%;
+    padding: 10px;
+
+}
+.left1{
+/* border: 1px solid black; */
+width: 100%;
+height: 100px;
+background-image: url("playing.JPG");
+}
+.left2{
+    /* border: 1px solid black; */
+width: 100%;
+height: 100px;
+background-image: url("boat.jpg");
+margin-top: 10px;
+}
+.left3{
+    /* border: 1px solid black; */
+width: 100%;
+height: 100px;
+background-image: url("dog.jpg");
+margin-top: 10px;
+}
+.right1{
+    padding: 10px;
+    /* border: 1px solid black; */
+    width: 100%;
+    margin-bottom: 10px;
+}
+.nb{
+    color: grey;
+}
+.right2{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px;
+}
+.bn{
+    color: grey;
+}
+.right3{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px;
+    margin-top: 50px; ;
+}
+.n{
+    color: gray;
+}
+.centre{
+    width: 50%;
+    /* border: 1px solid black; */
+    margin-top: 70px;
+    background-image: url("banner.png");
+    height: 100px;
+    background-repeat: no-repeat;
+    margin: 40px auto 0;
+}
+.categories{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin-top:40px ;
+    border-left: 0ch;
+    border-right: 0ch;
+}
+.end{
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin-top: 30px;
+    display: flex;
+    height: 200px;
+
+}
+.endbody{
+    /* border: 1px solid black; */
+    width: 50%;
+    padding: 10px;
+
+}
+.endbody1{
+    /* border: 1px solid black; */
+    width: 50%;
+    padding: 10px;
+}
+.hi{
+    margin-top: 20px;
+    color: grey;
+}
+.bi{
+    margin-top: 20px;
+    color: grey;
+}
+.text{
+    /* border: 1px solid black; */
+}
+.mother{
+    /* border: 1px solid black; */
+    padding: 10px;
+    margin-top: 10px;
+    /* flex-wrap: wrap; */
+    width: 100%;
+    display: flex;
+}
+.child{
+    /* border: 1px solid black; */
+    height: 270px;
+    /* flex-wrap: wrap; */
+    width: 85%;
+    margin-top: 10px;
+    background-image: url("flower.jpg");
+    background-repeat: no-repeat;
+
+}
+.child1{
+    padding: 10px;
+    /* display: flex; */
+    width: 100%;
+}
+.child2{
+    padding: 10px;
+    /* display: flex; */
+    width: 100%;
+}
+.footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    /* margin-top: 10px; */
+
+}
+.grand{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+
+}
+.blog{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 150px;
+    
+}
+@media only screen and (max-width:1200px) {
+    
+    .mainbody{
+        /* border: 1px solid black; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .bodyleft{
+        /* border: 1px solid black; */
+        width: 100%;
+        /* background-image: url("tree.JPG"); */
+        /* padding: 10px;
+        background-color: white; */
+    }
+    .bodyright{
+        /* border: 1px solid black; */
+        width:100%;
+        /* margin: 0 auto 0;
+        height: 2100px;
+        padding: 10px;
+        background-color: lavender;
+        flex-direction: column; */
+    }
+    
+    
+    
+}
